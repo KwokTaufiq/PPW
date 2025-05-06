@@ -1,0 +1,19 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+    margin-top: 20px;
+  }
+  
+  .card-title {
+    color: #023e8a;
+  }
+  
+  .list-group-item:hover {
+    background-color: #caf0f8;
+    cursor: pointer;
+  }
+  
