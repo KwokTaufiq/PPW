@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Halaman Registrasi</title>
+</head>
+<body>
+  <h2>Registrasi</h2>
+  <form action="login.html" method="get">
+    <label>Email:</label><br>
+    <input type="email" name="email" placeholder="input email" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password" placeholder="input password" required><br><br>
+
+    <label>Nomor Telepon:</label><br>
+    <input type="tel" name="telepon" placeholder="No Telp" pattern="[0-9]{10,15}" required ><br><br>
+
+    <label>Tanggal Lahir:</label><br>
+    <input type="date" name="tgl_lahir" placeholder="input tgl Lahir" required><br><br>
+
+    <label>Alamat Lengkap:</label><br>
+    <textarea name="alamat" required></textarea><br><br>
+
+    <input type="submit" value="Daftar">
+  </form>
+</body>
+</html>
